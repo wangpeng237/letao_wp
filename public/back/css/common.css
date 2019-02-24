@@ -114,6 +114,10 @@ a {
     display: none;
 }
 
+.lt_aside .nav .child.block{
+    display: block;
+}
+
 .lt_main{
     padding-left: 180px;
     padding-top: 50px;
@@ -156,3 +160,9 @@ a {
 .modal-body p{
     color: #A94442;
 }
+
+.lt_main .echarts_left, 
+.lt_main .echarts_right {
+  width: 48%;
+  height: 400px;
+} 
