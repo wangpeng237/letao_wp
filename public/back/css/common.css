@@ -18,7 +18,9 @@ a {
     color: #A94442;
   }
 
-
+  .mt_20{
+      margin-top: 20px;
+  }
 
 .body_bg{
     background: #222D32;
