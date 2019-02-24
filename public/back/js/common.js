@@ -31,7 +31,7 @@ $(function(){
 
 
     //退出登录
-    $('.modal-footer .btn-primary').on('click', function(){
+    $('#logoutbtn').on('click', function(){
         $.ajax({
             url: '/employee/employeeLogout',
             dataType: 'json',
