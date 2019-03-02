@@ -76,7 +76,9 @@ $(function(){
 
       render();
 
-      $('.lt_input input').val('')
+      $('.lt_input input').val('');
+
+      location.href = 'searchList.html?key=' + key;
   })
   
 })

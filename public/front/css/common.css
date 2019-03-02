@@ -14,7 +14,7 @@ ul {
     width: 100%;
     max-width: 640px;
     min-width: 320px;
-    /* background: pink; */
+    background: #fff;
     height: 100%;
     margin: 0 auto;
     padding-top: 45px;
@@ -99,4 +99,64 @@ ul {
     height: 100%;
     /* background: skyblue; */
     position: relative;
+}
+
+
+/* 复用的搜索 */
+.lt_input{
+    padding: 10px;
+    position: relative;
+}
+
+.lt_input input{
+    height: 34px;
+    font-size: 12px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid #007AFF;
+}
+
+.lt_input button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+/* 商品复用 */
+.lt_product{
+    padding: 10px;
+}
+
+.lt_product li{
+    width: 48%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.lt_product li img{
+    width: 130px;
+    height: 130px;
+
+}
+
+.lt_product li:nth-child(2n-1){
+    margin-right: 4%;
+}
+
+.lt_product li a{
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.price{
+    color: red;
+}
+
+.oldprice{
+    text-decoration: line-through;
 }
